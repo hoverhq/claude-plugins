@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hover": {
+      "type": "http",
+      "url": "https://mcp.hoverfeed.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.hover_api_key}"
+      }
+    }
+  }
+}
