@@ -1,8 +1,8 @@
 {
   "name": "hover",
+  "description": "Official Hover plugins for Claude Code — connect your drone fleet (read-only).",
   "owner": {
-    "name": "Hover",
-    "url": "https://hoverfeed.com"
+    "name": "Hover"
   },
   "plugins": [
     {
