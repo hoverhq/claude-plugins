@@ -11,19 +11,11 @@ Read-only and scoped to your organization: the plugin reads your data, never wri
 /plugin install hover@hover
 ```
 
-Claude Code prompts you for a Hover API key when the plugin enables.
+## Connect
 
-## Connect (today: API key)
+There's no key to copy. The first time Claude uses a Hover tool, a browser window opens to log in to Hover and approve read-only access; Claude then connects automatically. The login mints a short-lived, read-only, org-scoped token that refreshes on its own and is revocable anytime at https://dash.hoverfeed.com/api-keys.
 
-1. Create a read-only key at https://dash.hoverfeed.com/api-keys (it starts with `hk_`).
-2. Paste it when Claude Code asks for "Hover API key" during install.
-3. Ask Claude about your fleet, e.g. "Which deployments are live right now?", or run `/hover`.
-
-Claude Code stores the key locally and sends it only to `mcp.hoverfeed.com`. Revoke it anytime at https://dash.hoverfeed.com/api-keys.
-
-## Connect (coming: browser login)
-
-A browser login is on the way. When it lands, install opens a Hover login in your browser and mints a short-lived read-only key for you, so there's no key to copy or store. Nothing changes on your side beyond reinstalling.
+Try it: ask "Which deployments are live right now?", or run `/hover`. The login opens on that first call.
 
 ## What Claude can read
 
@@ -36,7 +28,7 @@ Read-only access to your organization's:
 - observations (telemetry)
 - assets
 
-No writes, and no access to any other organization. Keys are revocable; browser-login keys are also short-lived and refresh automatically.
+No writes, and no access to any other organization.
 
 ## Commands
 

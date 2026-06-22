@@ -1,6 +1,6 @@
 {
   "name": "hover",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Connect Hover to Claude Code: read-only access to your drone fleet.",
   "author": {
     "name": "Hover",
@@ -8,13 +8,5 @@
   },
   "homepage": "https://hoverfeed.com",
   "repository": "https://github.com/hoverhq/claude-plugins",
-  "keywords": ["hover", "drone", "fleet", "telemetry", "mcp"],
-  "userConfig": {
-    "hover_api_key": {
-      "type": "string",
-      "title": "Hover API key",
-      "description": "Your Hover API key (starts with hk_). Create a read-only, org-scoped key at https://dash.hoverfeed.com/api-keys. Stored locally by Claude Code; sent only to mcp.hoverfeed.com.",
-      "sensitive": true
-    }
-  }
+  "keywords": ["hover", "drone", "fleet", "telemetry", "mcp"]
 }
